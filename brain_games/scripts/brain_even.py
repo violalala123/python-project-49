@@ -13,16 +13,16 @@ def welcome_user():
         number = random.randint(1, 100)
         print(f'Question: {number}')
         answer = prompt.string('Your answer: ')
-        cur_ans = ''
+        cur = ''
         if number % 2 == 0:
-            cur_ans = 'yes'
+            cur = 'yes'
         else: 
-            cur_ans = 'no'
-        if answer == cur_ans:
+            cur = 'no'
+        if answer == cur:
             current += 1
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{cur_ans}'.")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{cur}'.")
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')

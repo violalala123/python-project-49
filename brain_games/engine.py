@@ -15,7 +15,9 @@ def welcome_user(game):
         if answer == current_answer:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{current_answer}'.")
+            q1 = f"'{answer}' is wrong answer ;(. "
+            q2 = f"Correct answer was '{current_answer}'."
+            print(f'{q1} + {q2}')
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
