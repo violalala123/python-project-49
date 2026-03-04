@@ -1,5 +1,6 @@
 import random
 
+
 def prime_number(num):
     if num <= 1:
         return 'no'
@@ -9,7 +10,8 @@ def prime_number(num):
     return 'yes'
     
 
-start_quest = f'Answer "yes" if given number is prime. Otherwise answer "no".'
+start_quest = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def game_start():
     number1 = random.randint(1, 100)
