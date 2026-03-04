@@ -1,10 +1,13 @@
 import random
+
 start_quest = 'What is the result of the expression?'
+
+
 def game_start():
     number1 = random.randint(1, 10)
     number2 = random.randint(1, 10)
     sign = ['+', '-', '*']
-    result  = random.choice(sign)
+    result = random.choice(sign)
     answer = f'{number1} {result} {number2}'
     match result:
         case '+':
