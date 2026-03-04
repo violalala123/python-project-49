@@ -8,7 +8,7 @@ def welcome_user(game):
     print(f'Hello, {name}')
     print(game.start_quest)
     for i in range(round):
-        question, current_answer = game.game_calc()
+        question, current_answer = game.game_start()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == current_answer:

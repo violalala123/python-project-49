@@ -1,6 +1,6 @@
 import random
 start_quest = 'What is the result of the expression?'
-def game_calc():
+def game_start():
     number1 = random.randint(1, 10)
     number2 = random.randint(1, 10)
     sign = ['+', '-', '*']
