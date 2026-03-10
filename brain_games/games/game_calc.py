@@ -1,6 +1,6 @@
 import random
 
-start_quest = 'What is the result of the expression?'
+START_QUEST = 'What is the result of the expression?'
 
 
 def game_start():

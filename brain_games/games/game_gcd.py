@@ -7,7 +7,7 @@ def get_gcd(a, b):
     return a
 
 
-start_quest = 'Find the greatest common divisor of given numbers.'
+START_QUEST = 'Find the greatest common divisor of given numbers.'
 
 
 def game_start():

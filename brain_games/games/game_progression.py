@@ -8,7 +8,7 @@ def prog(start, step, index):
     return progression
 
 
-start_quest = 'What number is missing in the progression?'
+START_QUEST = 'What number is missing in the progression?'
 
 
 def game_start():

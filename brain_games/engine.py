@@ -7,7 +7,7 @@ def welcome_user(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}')
-    print(game.start_quest)
+    print(game.START_QUEST)
     for i in range(round):
         question, current_answer = game.game_start()
         print(f'Question: {question}')
